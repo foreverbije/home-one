@@ -1,0 +1,19 @@
+header:
+  cta: "Hire us"
+case_studies:
+  title: "Our Projects"
+  subtitle: "A sample of our work with cool clients :)"
+contact_us:
+  title: "Get in touch"
+  phone:
+    stouph:
+      spaceless: "+33682041355"
+      readable: "+33 6 82 04 13 55"
+    gab:
+      spaceless: "+33625342640"
+      readable: "+33 6 25 34 26 40"
+  email: "team@foreverbije.com"
+  address: "138 Rue de Crimée 75019 Paris"
+  button: "Send"
+footer:
+  text: "We are Web Developers with 10+ years of experience working together, specialized in Ruby & dedicated to make your vision a reality."

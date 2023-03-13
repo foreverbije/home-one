@@ -1,0 +1,35 @@
+<!-- Start deneb_banner section -->
+<section class="deneb_banner banner_v1">
+	<div class="shape_v1">
+		<img src="{{ "/assets/images/shape/shape_1.png" | absolute_url }}" class="shape_1" alt="slider one">
+	</div>
+	<div class="container">
+		<div class="hero_slider">
+			{% for slider in page.slider %}
+			<div class="signle_slider">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="banner_content wow fadeInLeft">
+							<h1>{{ slider.heading }}</h1>
+							<h5>{{ slider.heading2 }}</h5>
+							<p>{{ slider.text }}</p>
+							{% if slider.text2 %}
+								<p>{{ slider.text2 }}</p>
+							{% endif %}
+							{% if slider.button.link && slider.button.name %}
+							  <a href="{{ slider.button.link }}" class="deneb_btn">{{ slider.button.name }}</a>
+							{% endif %}
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="deneb_img_box wow fadeInRight">
+							<img src="{{ slider.image | absolute_url }}" class="img-fluid" alt="slider two" />
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<!-- End deneb_banner section-->

@@ -1,0 +1,88 @@
+<!-- Start footer -->
+<footer class="deneb_footer">
+	<div class="widget_wrapper" style="background-image: url(/assets/images/footer_bg.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="widget widegt_about mb-md-4 mb-lg-0">
+						<div class="widget_title">
+							<img src="{{site.site_logo}}" class="img-fluid" alt="{{site.title}}"/>
+						</div>
+						<p>{{ site.data.i18n.footer.text }}</p>
+						<!-- <ul class="social">
+							{% if site.facebook_url %}
+							<li><a href="{{site.facebook_url}}" target="__blank"><i class="fab fa-facebook-f"></i></a></li>
+							{% endif %}
+							{% if site.twitter_url %}
+							<li><a href="{{site.twitter_url}}" target="__blank"><i class="fab fa-twitter"></i></a></li>
+							{% endif %}
+							{% if site.instagram_url %}
+							<li><a href="{{site.instagram_url}}" target="__blank"><i class="fab fa-instagram"></i></a></li>
+							{% endif %}
+						</ul> -->
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="widget widget_link">
+						<div class="widget_title">
+							<h4>The essentials</h4>
+						</div>
+						<ul>
+							<li><a href="/about">About Us</a></li>
+							<li><a href="/services">Our Expertise</a></li>
+							<li><a href="/portfolios">Our Projects</a></li>
+							<!-- <li><a href="/blog">Blog</a></li> -->
+							<li><a href="/contact">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="widget widget_contact">
+						<div class="widget_title">
+							<h4>{{ site.data.i18n.contact_us.title }}</h4>
+						</div>
+						<div class="contact_info">
+							<div class="single_info">
+								<div class="icon">
+									<i class="fas fa-phone-alt"></i>
+								</div>
+								<div class="info">
+									<p><a href="tel:{{ site.data.i18n.contact_us.phone.stouph.spaceless }}">{{ site.data.i18n.contact_us.phone.stouph.readable }}</a></p>
+									<p><a href="tel:{{ site.data.i18n.contact_us.phone.gab.spaceless }}">{{ site.data.i18n.contact_us.phone.gab.readable }}</a></p>
+								</div>
+							</div>
+							<div class="single_info">
+								<div class="icon">
+									<i class="fas fa-envelope"></i>
+								</div>
+								<div class="info">
+									<p><a href="mailto:{{ site.data.i18n.contact_us.email }}">{{ site.data.i18n.contact_us.email }}</a></p>
+								</div>
+							</div>
+							<div class="single_info">
+								<div class="icon">
+									<i class="fas fa-map-marker-alt"></i>
+								</div>
+								<div class="info">
+									<p>{{ site.data.i18n.contact_us.address }}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright_area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="copyright_text">
+						<p>{{ site.copyright }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- End footer -->
