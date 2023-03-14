@@ -16,7 +16,7 @@
 			<div class="col-lg-12">
 				<div class="project_button text-center">
 					<button class="project_btn active_btn" data-filter="*">all</button>
-					{% for tag in page.case_studies_tags.list %}
+					{% for tag in site.case_studies_tags.list %}
 						<button class="project_btn" data-filter=".{{ tag.slug }}">
 							{{ tag.name }}
 						</button>
@@ -27,15 +27,14 @@
 		<div class="projects_slider_content">
 			{% assign case_studies = site.posts | where_exp:"post","post.categories contains 'Case Study'" %}
 			{% for post in case_studies %}
-			<div class="single_project cat1 cat5 {{ post.tags | join: ' ' }}">
+			<div class="single_project {{ post.tags | join: ' ' }}">
 				<a href="{{ post.url }}">
 					<div class="grid_item">
 						<div class="deneb_img">
-							<img src="{{ post.post_image | absolute_url }}" class="img-fluid">
+							<img src="{{ post.post_image | absolute_url }}" class="img-fluid" alt="{{ post.company }}">
 						</div>
 						<div class="deneb_info">
 							<h4>{{ post.company }}</h4>
-							<!-- <h4><a href="{{ post.url }}">{{ post.company }}</a></h4> -->
 							<p>{{ post.title }}</p>
 						</div>
 					</div>

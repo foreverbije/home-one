@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	padding: 0;
 	font-family: $font2;
-	color: $title;
+	color: $title_color;
 }
 h1{
 	font-size: 58px;
@@ -78,7 +78,7 @@ body{
 	font-family: $font1;
 	font-size: 15px;
 	line-height: 24px;
-	color: $text;
+	color: $text_color;
 	font-weight: normal;
 	overflow-x: hidden;
 }
@@ -137,7 +137,7 @@ body{
 	}
 }
 .link_btn{
-	color: $title;
+	color: $title_color;
 	&:before{
 		display: inline-block;
 		content: '\f04b';

@@ -9,20 +9,6 @@ slider:
     text: "We are Web Developers with 10+ years of experience working together specialized in Ruby & dedicated to make your vision a reality."
     text2: "We will do our best to build your confidence in us, and we expect the same from you. Allons-y !"
 
-# Case Studies
-case_studies_tags:
-  list:
-   - slug: "ruby-on-rails"
-     name: "Ruby on Rails"
-   - slug: "devops"
-     name: "Devops"
-   - slug: "web-design"
-     name: "Web Design"
-   - slug: "nodejs"
-     name: "Node.js"
-   - slug: "audit"
-     name: "Audit"
-
 # Services
 services:  
   heading: "Our Expertise"
@@ -102,27 +88,8 @@ pricing:
        - name: "SEO Marketing"
        - name: "Business Analysis"
 
-# Testimonials
-testimonials:
-  heading: "What You'll Say"
-  description: "When unknow printer took a gallery of type and scramblted it to make a type specimen book"
-  list:
-    - name: "Jérémy Kenigsman"
-      position: "Co-Founder & CTO at Simplébo"
-      image: "/assets/images/testimonials/main/gg.png"
-      text: "From day one, working with Forever Bije was a rewarding choice. When Stéphane & Vincent work on code, they are just meticulous and methodical enough for the project to move forward without new technical debt. What they brought to Simplébo is not just about code, but also about business. We have now better foundations and our tech team has been unleashed :D "
-    - name: "Gilles Vallier"
-      position: "Co-Founder at Carbon Target"
-      image: "/assets/images/testimonials/main/gillou.jpeg"
-      text: "The Carbon Target project would have never seen the light of day without Forever Bije. They have been both flexible to adapt to the project's changes of direction, and proactive to share their experience in UI/UX to make the product better. And they're also pretty cool."
-
 # Latest Blog Post
 latest_blog_post:
   heading: "Latest Blog"
   description: "When unknow printer took a gallery of type and scramblted it to make a type specimen book"
-
-# Contact Area
-contact_area:
-  heading: "Get In Touch"
-  description: "If you want to find out more, share with us a project of yours, or just talk, leave us a message and we'll setup a call."
 ---

@@ -22,13 +22,46 @@ facebook_url: "https://www.facebook.com/changethis"
 twitter_url: "https://twitter.com/changethis"
 instagram_url: "https://instagram.com/changethis"
 
-hero_image: "/assets/images/breadcrumb_bg.jpg"
+hero_image: "/assets/images/default_banner.jpg"
 
 sass:
   sass_dir: _sass
   style: compressed
 
 site_preloader: true
+
+# Case Studies
+case_studies_tags:
+  list:
+   - slug: "ruby-on-rails"
+     name: "Ruby on Rails"
+   - slug: "devops"
+     name: "Devops"
+   - slug: "web-design"
+     name: "Web Design"
+   - slug: "nodejs"
+     name: "Node.js"
+   - slug: "audit"
+     name: "Audit"
+
+# Testimonials
+testimonials:
+  heading: "What You'll Say"
+  description: "When unknow printer took a gallery of type and scramblted it to make a type specimen book"
+  list:
+    - name: "Jérémy Kenigsman"
+      position: "Co-Founder & CTO at Simplébo"
+      image: "/assets/images/testimonials/main/gg.png"
+      text: "From day one, working with Forever Bije was a rewarding choice. When Stéphane & Vincent work on code, they are just meticulous and methodical enough for the project to move forward without new technical debt. What they brought to Simplébo is not just about code, but also about business. We have now better foundations and our tech team has been unleashed :D "
+    - name: "Gilles Vallier"
+      position: "Co-Founder at Carbon Target"
+      image: "/assets/images/testimonials/main/gillou.jpeg"
+      text: "The Carbon Target project would have never seen the light of day without Forever Bije. They have been both flexible to adapt to the project's changes of direction, and proactive to share their experience in UI/UX to make the product better. And they're also pretty cool."
+
+# Contact Area
+contact_area:
+  heading: "Get In Touch"
+  description: "If you want to find out more, share with us a project of yours, or just talk, leave us a message and we'll setup a call."
 
 collections:
   services:

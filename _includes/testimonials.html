@@ -8,22 +8,11 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="section_title text-center">
-					<h2>{{ page.testimonials.heading }}</h2>
-					<p>{{ page.testimonials.text }}</p>
+					<h2>{{ site.testimonials.heading }}</h2>
+					<p>{{ site.testimonials.text }}</p>
 				</div>
 			</div>
 		</div>
-		<!-- <div class="row1">
-			<div class="single_img">
-				<img src="{{ "/assets/images/1.png" | absolute_url }}" class="img-fluid" alt="">
-			</div>
-			<div class="single_img sm_img">
-				<img src="{{ "/assets/images/2.png" | absolute_url }}" class="img-fluid" alt="">
-			</div>
-			<div class="single_img sm_img">
-				<img src="{{ "/assets/images/3.png" | absolute_url }}" class="img-fluid" alt="">
-			</div>
-		</div> -->
 		<div class="row2">
 			<div class="single_img">
 				<img src="{{ "/assets/images/testimonials/main/gillou.jpeg" | absolute_url }}" class="img-fluid" alt="">
@@ -39,7 +28,7 @@
 			</div>
 		</div>
 		<div class="testimonial_slide">
-			{% for list in page.testimonials.list %}
+			{% for list in site.testimonials.list %}
 			<div class="single_testimonial">
 				<div class="client_img">
 					<img src="{{ list.image | absolute_url }}" class="img-fluid" alt="">

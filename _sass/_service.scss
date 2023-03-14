@@ -38,7 +38,7 @@
 				margin-bottom: 15px;
 				font-weight: 600;
 				a{
-					color: $title;
+					color: $title_color;
 					font-weight: 600;
 				}
 			}
@@ -47,7 +47,7 @@
 			}
 			.link_btn{
 				font-weight: 500;
-				color: $title;
+				color: $title_color;
 				text-transform: uppercase;
 			}
 		}
