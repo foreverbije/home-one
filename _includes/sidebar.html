@@ -53,7 +53,7 @@
 			{% assign related_posts = site.posts | where_exp:"post", "post.categories contains 'Case Study'" %}
 		{% endif %}
 
-		{% for post in related_posts limit:"4" %}
+		{% for post in related_posts | limit: 4 %}
 			<a href="{{post.url}}">
 				<div class="post_wrap">
 					{% if post.post_image %}
