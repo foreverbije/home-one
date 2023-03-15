@@ -22,7 +22,7 @@ facebook_url: "https://www.facebook.com/changethis"
 twitter_url: "https://twitter.com/changethis"
 instagram_url: "https://instagram.com/changethis"
 
-hero_image: "/assets/images/default_banner.jpg"
+hero_image: "/assets/images/default_banner.png"
 
 sass:
   sass_dir: _sass
@@ -62,6 +62,13 @@ testimonials:
 contact_area:
   heading: "Get In Touch"
   description: "If you want to find out more, share with us a project of yours, or just talk, leave us a message and we'll setup a call."
+
+# Blog Config
+show_categories: true
+show_meta_info: true
+show_comments: true
+show_bottom_posts: true
+show_bottom_tags: true
 
 collections:
   services:

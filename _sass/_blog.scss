@@ -130,6 +130,11 @@
 }
 // deneb_single_blog
 .deneb_single_blog{
+	@media #{$xs}{
+		padding-top: 1.5rem;
+		padding-bottom: 0;
+	}
+
 	.single_blog_wrapper{
 		@media #{$xs}{
 			margin-bottom: 40px;
@@ -166,12 +171,29 @@
 		.post_content{
 			border-bottom: 1px solid #e1e1e1;
 			padding-bottom: 36px;
+			h2 {
+				font-size: 25px;
+			}
 			h3{
 				font-weight: bold;
-				margin-bottom: 10px;
+				margin-bottom: 15px;
 			}
 			p{
-				margin-bottom: 10px;
+				margin-bottom: 15px;
+				text-align: justify;
+			}
+			img {
+				width: 100%;
+				margin-bottom: 15px;
+			}
+			ul {
+				margin-bottom: 1rem;
+			}
+			ol li {
+				margin-left: 10px;
+			}
+			strong {
+				color: $title_color;
 			}
 			.deneb_blockquote{
 				display: flex;
@@ -211,12 +233,15 @@
 			padding-top: 15px;
 			margin-bottom: 38px;
 			.tag{
+				a{
+					color: $title_color;
+				}
 				ul{
 					li{
 						display: inline-block;
 						margin-right: 5px;
 						a{
-							color: #a1a1a1;
+							color: $title_color;
 						}
 					}
 				}

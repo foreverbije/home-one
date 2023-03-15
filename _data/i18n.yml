@@ -15,5 +15,8 @@ contact_us:
   email: "team@foreverbije.com"
   address: "138 Rue de Crimée 75019 Paris"
   button: "Send"
+sidebar:
+  related_posts:
+    title: "Related Posts"
 footer:
   text: "We are Web Developers with 10+ years of experience working together, specialized in Ruby & dedicated to make your vision a reality."

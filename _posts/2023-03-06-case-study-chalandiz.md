@@ -7,6 +7,11 @@ tags: ruby-on-rails devops
 categories: [Case Study]
 author: "Vincent Gabou"
 post_image: "/assets/images/case_studies/chalandiz.jpg"
+show_categories: false
+show_meta_info: false
+show_comments: false
+show_bottom_posts: false
+show_bottom_tags: false
 ---
 
 TL;DR : We've been working with Chalandiz since we started Forever Bije in 2019. We take part in the 2 stages of the Chalandiz service : provide responsive websites to clients quicker (using a template we coded) and maintain the platform allowing clients to fully administrate it (Categories, Shops, News, Job Offers, Images etc.)

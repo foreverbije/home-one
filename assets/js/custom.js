@@ -105,21 +105,29 @@
         Isotope js
     ------------------------*/
     $('#project').imagesLoaded( function() {
-        var $grid = $('.grid_wrapper').isotope({
-            itemSelector: '.single_project',
-            layoutMode: 'fitRows'
-        })
-        $('.project_button_2').on('click', 'button', function () {
-            var filterValue = $(this).attr('data-filter');
-            $grid.isotope({filter: filterValue});
-        });
-        $('.project_button_2').each(function (i, buttonGroup) {
-            var $buttonGroup = $(buttonGroup);
-            $buttonGroup.on('click', 'button', function () {
-                $buttonGroup.find('.active_btn').removeClass('active_btn');
-                $(this).addClass('active_btn');
-            });
-        });
+      var $grid = $('.grid_wrapper').isotope({
+          itemSelector: '.single_project',
+          layoutMode: 'fitRows'
+      })
+      $('.project_button_2').on('click', 'button', function () {
+          var filterValue = $(this).attr('data-filter');
+          $grid.isotope({filter: filterValue});
+      });
+      $('.project_button_2').each(function (i, buttonGroup) {
+          var $buttonGroup = $(buttonGroup);
+          $buttonGroup.on('click', 'button', function () {
+              $buttonGroup.find('.active_btn').removeClass('active_btn');
+              $(this).addClass('active_btn');
+          });
+      });
+
+      // If the filter query string is present, we simulate a click on the corresponding tag
+      // to filter results accordingly.
+      var filterParam = (new URL(location.href)).searchParams.get('filter');
+      if (filterParam) {
+        var button = $('.project_button_2 [data-filter=".' + filterParam + '"]');
+        button.click();
+      }
     });
     /*----------------------
         Isotope js
@@ -136,7 +144,8 @@ if($("#search-input").length >0){
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
-      json: '/search.json'
+      json: '/search.json',
+      searchResultTemplate: '<li><a href="{url}">{company} - {title}</a></li>'
     });
   }
 
