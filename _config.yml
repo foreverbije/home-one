@@ -7,7 +7,9 @@ url: "https://foreverbije.com" # the base hostname & protocol for your site, e.g
 twitter_username: changethis
 github_username:  foreverbije
 site_logo: "/assets/images/logo-foreverbije.png"
-copyright: "Copyright &copy; 2023 <span>Forever Bije</span>. All rights reserved."
+copyright: >
+  Copyright &copy; 2023 <strong>Forever Bije</strong>. All rights reserved.
+  <p class="icons-source">Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a>, <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a>, <a href="https://www.flaticon.com/authors/juicy-fish" title="juicy_fish">juicy_fish</a>, <a href="https://www.freepik.com" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/authors/rendra-tri" title="Rendra Tri">Rendra Tri</a>, <a href="https://www.flaticon.com/authors/nawicon" title="nawicon">nawicon</a>, <a href="https://www.flaticon.com/authors/zero-wing" title="zero_wing">zero_wing</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
 
 permalink: :title:output_ext
 

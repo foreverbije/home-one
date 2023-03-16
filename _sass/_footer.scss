@@ -110,9 +110,15 @@
 		.copyright_text{
 			text-align: center;
 			p{
-				color: $title_color;
+				color: $text_color;
 				span{
-					color: $theme_color;
+					color: $text_color;
+				}
+			}
+			.icons-source {
+				font-size: .7rem;
+				a {
+					color: $text_color;
 				}
 			}
 		}
