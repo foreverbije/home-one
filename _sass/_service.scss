@@ -60,8 +60,15 @@
 		padding-top: 45px;
 	}
 }
-// service_wrapper
 .service_wrapper{
+	padding: 200px 0 100px;
+
+	h1 {
+		margin-bottom: 60px;
+		text-align: center;
+		font-size: 45px;
+	}
+
 	.service_tab_wrap{
 		.service_tab_nav{
 			margin-bottom: 80px;
@@ -83,19 +90,20 @@
 					.nav-link{
 						border: none;
 						text-align: center;
-					    font-size: 18px;
-					    font-weight: 600;
-					    color: #011a3e;
-					    width: 170px;
-					    height: 170px;
-					    background: #fff;
-					    box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
-					    border-radius: 8px;
-					    padding: 20px 25px;
-					    border: 3px dashed $white;
-					    @include transition (.5s);
+				    font-size: 18px;
+				    font-weight: 600;
+				    color: #011a3e;
+				    width: 170px;
+				    height: 170px;
+				    background: #fff;
+				    box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
+				    border-radius: 8px;
+				    padding: 20px 25px;
+				    border: 3px dashed $white;
+				    @include transition (.5s);
 						& img{
 							margin-bottom: 10px;
+							height: 72px;
 						}
 						& span{
 							display: block;

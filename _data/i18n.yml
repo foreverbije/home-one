@@ -3,6 +3,8 @@ header:
 case_studies:
   title: "Our Projects"
   subtitle: "A sample of our work with cool clients :)"
+about_us:
+  title: "About Us"
 contact_us:
   title: "Get in touch"
   phone:

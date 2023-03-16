@@ -223,7 +223,17 @@
 		}
 	}
 }
-
+.page-header-alt {
+	padding: 0;
+	margin-bottom: 40px;
+	h1 {
+		margin: 0;
+		text-align: center;
+	}
+	ul {
+		text-align: center;
+	}
+}
 // deneb_pagination
 .deneb_pagination{
 	ul{

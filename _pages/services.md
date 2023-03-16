@@ -1,8 +1,8 @@
 ---
 layout: services
-permalink: /services/
-title: "Our Services"
-page_header_image: "/assets/images/page_header_3.jpg"
+permalink: /our-expertise/
+title: "Our Expertise"
+page_header_image: "/assets/images/default_banner.png"
 
 # Workflow
 workflow:

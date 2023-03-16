@@ -3,31 +3,39 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
+				<h1>{{ site.data.i18n.services.title }}</h1>
 				<div class="service_tab_wrap">
 					<div class="service_tab_nav">
 						<ul class="nav nav-tabs">
-						    <li class="nav-item">
-						      	<a class="nav-link active" data-toggle="tab" href="#web"><img src="{{ "/assets/images/icon_11.png" | absolute_url }}" alt="web solution"><span>Web Solution</span></a>
-						    </li>
-						    <li class="nav-item">
-						      	<a class="nav-link" data-toggle="tab" href="#strategy"><img src="{{ "/assets/images/icon_12.png" | absolute_url }}" alt="Strategy & Research"><span>Strategy & Research</span></a>
-						    </li>
-						    <li class="nav-item">
-						      	<a class="nav-link" data-toggle="tab" href="#development"><img src="{{ "/assets/images/icon_13.png" | absolute_url }}" alt="Web Development"><span>Web Development</span></a>
-						    </li>
-						    <li class="nav-item">
-						      	<a class="nav-link" data-toggle="tab" href="#app"><img src="{{ "/assets/images/icon_14.png" | absolute_url }}" alt="App Design"><span>App Design</span></a>
-						    </li>
-						    <li class="nav-item">
-						      	<a class="nav-link" data-toggle="tab" href="#marketing"><img src="{{ "/assets/images/icon_15.png" | absolute_url }}" alt="Digital Marketing"><span>Digital Marketing</span></a>
-						    </li>
-						    <li class="nav-item">
-						      	<a class="nav-link" data-toggle="tab" href="#analysis"><img src="{{ "/assets/images/icon_16.png" | absolute_url }}" alt="Business Analysis"><span>Business Analysis</span></a>
-						    </li>
+							{% for service in site.services %}
+							<li class="nav-item">
+									<a class="nav-link active" data-toggle="tab" href="#{{service.slug}}"><img src="{{ service.icon }}" alt="{{service.title}}"><span>{{service.title}}</span></a>
+							</li>
+							{% endfor %}
 						</ul>
 					</div>
 					<!-- Tab panes -->
 					<div class="tab-content">
+						{% for service in site.services %}
+							<div id="{{ service.slug }}" class="tab-pane active">
+								<div class="row align-items-center">
+									<div class="col-lg-6">
+										<div class="deneb_content_box">
+											<h2>{{ service.title }}</h2>
+											<p>
+												{{ service.content }}
+											</p>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="deneb_img_box">
+											<img src="{{ "/assets/images/services/01.jpg" | absolute_url }}" class="img-fluid" alt="Web Solution"/>
+										</div>
+									</div>
+								</div>
+							</div>
+						{% endfor %}
+
 					    <div id="web" class="tab-pane active">
 					      	<div class="row align-items-center">
 					      		<div class="col-lg-6">

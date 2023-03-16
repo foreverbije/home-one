@@ -15,15 +15,15 @@ services:
   #text: "When unknow printer took a gallery of type and scramblted it to make a type specimen book"
 
 # About
-about:
+our_values:
   heading: "What Makes Us Unique"
   text: "**Trust** is at the core of our work ethic. When you choose to work with us, we want you to feel like _you can trust us fully_, both in our _technical ability_ and as _humans_. We also want to _feel the same towards you_."
   text2: "We are preferably looking for **projects with an _impact_** (social, environmental, etc.) because we believe the more help we can bring to the community, the better."
   text3: "Forever Bije is the holder of the French **Agrément au Crédit Impôt Innovation** (an innovation-related tax credit certificate). If you are a French organization, you can include our invoices in your CII expenses, and _get additional tax returns from our collaboration_."
-  image: "/assets/images/about.png"
+  image: "/assets/images/cat.png"
   button:
     name: "Read More"
-    link: "/about"
+    link: "/about-us"
 
 # Achivement
 achivement:
