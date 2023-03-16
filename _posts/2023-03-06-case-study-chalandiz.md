@@ -35,7 +35,7 @@ The multi-tenant web platform **Mallz** was already here, and encapsulated every
 
 1. **We've integrated a new customizable template to help the team deliver modern-looking & responsive websites to their clients quicker**
 
-    ![Chalandiz Case Study 2](/assets/images/case_studies/chalandiz/case-study-2.jpg)
+    ![Chalandiz Case Study 2](/assets/images/case_studies/chalandiz/case-study-2.png)
 
 2. **We're maintaining & upgrading the content-management platform to be able to edit more content on the websites, and improve the ease-of-use of the Mallz platform**
 
