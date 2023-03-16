@@ -226,9 +226,13 @@
 .page-header-alt {
 	padding: 0;
 	margin-bottom: 40px;
-	h1 {
+	.breadcrumb_content h1 {
 		margin: 0;
 		text-align: center;
+
+		@media #{$xs}{
+			font-size: 34px;
+		}
 	}
 	ul {
 		text-align: center;

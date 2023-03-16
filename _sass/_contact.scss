@@ -77,7 +77,7 @@
 	}
 }
 .cantact_v2{
-	padding-top: 120px;
+	padding-top: 200px;
 	.section_title{
 		h2{
 			position: relative;
@@ -93,6 +93,13 @@
 }
 // cantact_v2
 .cantact_v2{
+	h2 {
+		font-size: 30px;
+
+		@media #{$xs} {
+			font-size: 26px;
+		}
+	}
 	.section_title{
 		margin: 0;
 		margin-bottom: 40px;
@@ -117,6 +124,10 @@
 // deneb_map
 .deneb_map{
 	padding-bottom: 170px;
+
+	@media #{$xs} {
+		padding-bottom: 0;
+	}
 	.map_box{
 		iframe{
 			width: 100%;

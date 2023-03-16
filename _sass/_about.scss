@@ -17,6 +17,10 @@
 	}
 	.deneb_content_box{
 		margin-left: 20px;
+
+		@media #{$xs} {
+			margin-left: 0;
+		}
 		h2{
 			font-size: 30px;
 			margin-bottom: 40px;

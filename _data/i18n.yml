@@ -6,7 +6,7 @@ case_studies:
 about_us:
   title: "About Us"
 contact_us:
-  title: "Get in touch"
+  title: "Get in Touch"
   phone:
     stouph:
       spaceless: "+33682041355"

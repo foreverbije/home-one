@@ -9,7 +9,7 @@ github_username:  foreverbije
 site_logo: "/assets/images/logo-foreverbije.png"
 copyright: "Copyright &copy; 2023 <span>Forever Bije</span>. All rights reserved."
 
-permalink: "/:title"
+permalink: :title:output_ext
 
 # Build settings
 theme: minima
@@ -76,8 +76,6 @@ collections:
   pages:
     output: true
     permalink: "/:title"
-  portfolios:
-    output: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
