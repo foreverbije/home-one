@@ -7,7 +7,7 @@ slider:
     heading: "We dig coding. <br><span>Forever Bije</span>"
     heading2: "A Stack of Fools for your Fullstack Needs"
     text: "We are Web Developers with 10+ years of experience working together specialized in Ruby & dedicated to make your vision a reality."
-    text2: "We will do our best to build your confidence in us, and we expect the same from you. Allons-y !"
+    text2: "We will do our best to build your confidence in us, and we expect the same from you. Allons&#8209;y !"
 
 # Services
 services:  
