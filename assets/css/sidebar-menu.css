@@ -42,8 +42,14 @@
 }
 .sidebar-menu > li > a {
   display: block;
+  padding-left: 10px;
   border-left: 3px solid transparent;
   color: #b8c7ce;
+}
+.sidebar-menu > li > a.deneb_btn {
+  display: inline-block;
+  padding-left: 0;
+  border-left: 0;
 }
 .sidebar-menu > li > a > .fa {
   width: 20px;
