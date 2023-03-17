@@ -53,7 +53,7 @@ testimonials:
   list:
     - name: "Jérémy Kenigsman"
       position: "Co-Founder & CTO at Simplébo"
-      image: "/assets/images/testimonials/main/gg.png"
+      image: "/assets/images/testimonials/main/gg.webp"
       text: "From day one, working with Forever Bije was a rewarding choice. When Stéphane & Vincent work on code, they are just meticulous and methodical enough for the project to move forward without new technical debt. What they brought to Simplébo is not just about code, but also about business. We have now better foundations and our tech team has been unleashed :D "
     - name: "Gilles Vallier"
       position: "Co-Founder at Carbon Target"

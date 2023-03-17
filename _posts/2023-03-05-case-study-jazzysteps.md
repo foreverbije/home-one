@@ -23,7 +23,7 @@ show_bottom_tags: false
 
 Jazzy Steps was seeking external help to **delegate the back-end bootstrapping of such a platform**, and was set to take over the code to finish integrating the website. Forever Bije was contracted for that first phase of the project.
 
-![Jazzy Steps Splash Screen](/assets/images/case_studies/jazzysteps/case-study-1.png)
+![Jazzy Steps Splash Screen](/assets/images/case_studies/jazzysteps/case-study-1.webp)
 
 - - -
 ## ✅ The solution
@@ -33,19 +33,19 @@ We developed a web platform called **Classers** which addressed this task by all
 
 1. **Create a Structure**, specify the _Teachers_, _Disciplines & Levels_ of that structure, and **configure the Stripe Integration** to be able to bill future students via subscriptions.
 
-    ![Jazzy Steps Case Study 2](/assets/images/case_studies/jazzysteps/case-study-2.png)
+    ![Jazzy Steps Case Study 2](/assets/images/case_studies/jazzysteps/case-study-2.webp)
 
 2. **Administrate the Structure** by creating Courses, managing Students, and uploading teaching videos.
 
-    ![Jazzy Steps Case Study 3](/assets/images/case_studies/jazzysteps/case-study-3.png)
+    ![Jazzy Steps Case Study 3](/assets/images/case_studies/jazzysteps/case-study-3.webp)
 
 3. **Display every created resources in a dashboard**, with _pagination & multi-criteria filtering_ to find specific Courses.
 
-    ![Jazzy Steps Case Study 4](/assets/images/case_studies/jazzysteps/case-study-4.png)
+    ![Jazzy Steps Case Study 4](/assets/images/case_studies/jazzysteps/case-study-4.webp)
 
 4. **Have every teaching video displayed in a customized video player** with _Loop mode, Time Markers & Playback Speed management_ features.
 
-    ![Jazzy Steps Case Study 5](/assets/images/case_studies/jazzysteps/case-study-5.png)
+    ![Jazzy Steps Case Study 5](/assets/images/case_studies/jazzysteps/case-study-5.webp)
 
 5. Have a **Comment section** below every video with _Replies, Mentions & Notifications_ features.
 

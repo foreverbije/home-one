@@ -25,7 +25,7 @@ We've been working with Chalandiz since the beginning of their existence in 2012
 
 When we started working under our Forever Bije brand, the Chalandiz platform was in its 4th version. Our mission was to upgrade it to its 5th and current form, deliver new websites to their client, and maintain the platform.
 
-![Chalandiz Splash Screen](/assets/images/case_studies/chalandiz/case-study-1.png)
+![Chalandiz Splash Screen](/assets/images/case_studies/chalandiz/case-study-1.webp)
 
 - - -
 ## ✅ The solution
@@ -35,7 +35,7 @@ The multi-tenant web platform **Mallz** was already here, and encapsulated every
 
 1. **We've integrated a new customizable template to help the team deliver modern-looking & responsive websites to their clients quicker**
 
-    ![Chalandiz Case Study 2](/assets/images/case_studies/chalandiz/case-study-2.png)
+    ![Chalandiz Case Study 2](/assets/images/case_studies/chalandiz/case-study-2.webp)
 
 2. **We're maintaining & upgrading the content-management platform to be able to edit more content on the websites, and improve the ease-of-use of the Mallz platform**
 

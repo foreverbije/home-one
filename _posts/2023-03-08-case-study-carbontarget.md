@@ -31,11 +31,11 @@ We built a simple looking single-page web application (the product is still at i
 
 1. **The user can set a "carbon target" in the form of a number of tons of yearly carbon emission X**
 
-    ![Nanotrust Case Study 2](/assets/images/case_studies/carbontarget/case-study-1.png)
+    ![Nanotrust Case Study 2](/assets/images/case_studies/carbontarget/case-study-1.webp)
 
 2. There are sliders corresponding to the main sources of carbon emissions a person can leverage in his/her everyday life. These **sliders are all dynamically linked**, which means that **Carbon Target will never allow to exceed the initial value of X**. This lets the user understand that should he/she want to consume more of something, a reduction needs to be done on another criteria.
 
-    ![Nanotrust Case Study 3](/assets/images/case_studies/carbontarget/case-study-2.png)
+    ![Nanotrust Case Study 3](/assets/images/case_studies/carbontarget/case-study-2.webp)
 
 - - -
 ## 💻 The stack

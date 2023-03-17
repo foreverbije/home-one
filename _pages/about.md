@@ -14,7 +14,7 @@ about_us:
       After Sociabliz was acquired by the Acticall group, a customer relations expert, **Stéphane was Director of Operations at TSC**, the group's digital agency, between 2013 and 2018. He was managing the agency's project delivery, as well as the project management, design and development teams. He then **built and managed the Acticall/Sitel group's R&D cell**, which was tasked to work around _Artificial Intelligence_, _Natural Language Processing_, _Virtual Reality_ and _Blockchain_.
 
       He also loves 🏔
-    image: "/assets/images/about_us/stouph.png"
+    image: "/assets/images/about_us/stouph.webp"
   gab:
     name: "Vincent Gabou"
     description: |+
@@ -23,7 +23,7 @@ about_us:
       With **10 years of experience around Ruby & Ruby on Rails** (mainly, but not exclusively), Vincent is a proficient Full Stack developer who knows _all the ins and outs of a web application_. His polyvalence lead him to become a **Technical Director at TSC in 2016, and later in the Acticall/Sitel group's R&D cell in 2018**, where he _managed a small development and data-science team_.
 
       He also makes good 🎸
-    image: "/assets/images/about_us/gab.png"
+    image: "/assets/images/about_us/gab.webp"
 
 # Our Values
 our_values:
