@@ -59,6 +59,14 @@ testimonials:
       position: "Co-Founder at Carbon Target"
       image: "/assets/images/testimonials/main/gillou.jpeg"
       text: "The Carbon Target project would have never seen the light of day without Forever Bije. They have been both flexible to adapt to the project's changes of direction, and proactive to share their experience in UI/UX to make the product better. And they're also pretty cool."
+    - name: "Baudouin de Pontcharra"
+      position: "Co-Founder at Chalandiz"
+      image: "/assets/images/testimonials/main/baudouin.jpeg"
+      text: "It's always a great pleasure to work with the Forever Bije team. We've been working with them for several years, on various projects, but mainly on our platform dedicated to retail (major developments & maintenance). The strong relationship we have built over the years will certainly last a long time."
+    - name: "Matthieu Lamarque"
+      position: "Lead Developer at Nanotrust"
+      image: "/assets/images/testimonials/main/matt.jpg"
+      text: "Forever Bije is a highly experienced team, the work they deliver does justice to that statement. They were responsible for the development of one of ours applications, from scratch. They are quick to respond and good with communicating the project's progress. I can recommend them for the quality of their work."
 
 # Contact Area
 contact_area:
