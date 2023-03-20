@@ -1,0 +1,10 @@
+name: deploy-to-prod
+on:
+  push:
+    branches:
+      - main
+jobs:
+  write-to-console:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Helloworld!"
