@@ -3,8 +3,35 @@ on:
   push:
     branches:
       - main
+
 jobs:
-  write-to-console:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Helloworld!"
+      - uses: actions/checkout@v3
+      # - uses: actions/setup-node@v1
+      #
+      # - run: npm install
+      # - run: npm run build
+
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.GH_ACTIONS_SSH_PRIVATE_KEY }}
+          name: github-actions # optional
+          known_hosts: placeholder-so-the-action-doesnt-fail
+          if_key_exists: ignore
+
+      - name: Adding Known Hosts
+        run: ssh-keyscan -H ${{ secrets.GH_ACTIONS_SSH_IP_ADDRESS }} >> ~/.ssh/known_hosts
+
+      - name: Run Bundle
+        run: bundle install
+
+      - name: Build the jekyll project
+        run: JEKYLL_ENV=production bundle exec jekyll build
+
+      - name: output ls
+        run: ls -l
+      # - name: Deploy with rsync
+      #   run: rsync -avz ./_site/ ${{ secrets.GH_ACTIONS_SSH_USER }}@${{ secrets.GH_ACTIONS_SSH_HOST }}:${{ secrets.GH_ACTIONS_SSH_DEST_PATH }}
