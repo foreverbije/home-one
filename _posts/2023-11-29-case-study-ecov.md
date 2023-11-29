@@ -1,7 +1,7 @@
 ---
 layout: post
 company: "Ecov"
-title: "Ecov - Modernizing Ruby on Rails Applications"
+title: "Modernizing Ruby on Rails Applications"
 date: 2023-11-29 18:45:13 +0600
 tags: ruby-on-rails ruby
 categories: [Case Study]
