@@ -49,7 +49,7 @@ The Ridisi augmentation itself is done through heavy CSS and a Javascript parser
 \- graphemes detection and counting    
 \- phoneme assignation
 
-From this internal text representation, an in depth **Trix customization* print out the analysed text into HTML nodes of our own HTML5 tags: `<word>`, `<syllable>`, `<grapheme>`, each with specific attributes.
+From this internal text representation, an in depth **Trix customization** print out the analyzed text into HTML nodes of our own HTML5 tags: `<word>`, `<syllable>`, `<grapheme>`, each with specific attributes.
 
 **A set of CSS rules decorate this HTML document** with the available helps:
 
@@ -66,8 +66,8 @@ From this internal text representation, an in depth **Trix customization* print 
 
 \- wkhtmltopdf: using internally an old version of QTWebkit, this engine doesn't handle advanced CSS rules. For instance, `border-radius` used to display bezier curves under syllables is broken in some cases.    
 \- an in house deployement of headless Chromium: on top of other issues described in the next solution, this deployment was ressource intensive for our servers and too costly.    
-\- a third party solution, PDFShift, based on headless Chromium: by getting ride of resources consomsion and scalability issues, we kept here issues with Webkit print version of document using a custom `word-spacing` or `letter-spacing`. This caused Webkit to incorrectly wrap text at the end of the bounding box (or document).    
-\- a third party solution, DocRaptor, based on a proprietary PDF rendering engine, PrinceXML. This is the solution currently used in production. It also had issues with `word-spacing` rules on unbreakable spaces, that we eleviated by cleaning them for classic spaces. This can still be problematique in front of punctuation marks that need a space before, when they end up at the end of a line, though.
+\- a third party solution, PDFShift, based on headless Chromium: by getting ride of resources consomption and scalability issues, we kept here issues with Webkit print version of document using a custom `word-spacing` or `letter-spacing`. This caused Webkit to incorrectly wrap text at the end of the bounding box (or document).    
+\- a third party solution, DocRaptor, based on a proprietary PDF rendering engine, PrinceXML. This is the solution currently used in production. It also had issues with `word-spacing` rules on unbreakable spaces, that we eleviated by cleaning them for classic spaces. This can still be problematic in front of punctuation marks that need a space before, when they end up at the end of a line, though.
 
 
 - - -
