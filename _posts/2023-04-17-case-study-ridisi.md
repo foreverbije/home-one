@@ -1,7 +1,7 @@
 ---
 layout: post
 company: "Ridisi"
-title: "Development of an augmented text editor targeting reading techers"
+title: "Development of an augmented text editor targeting reading teachers"
 date: 2023-04-17 09:50:13 +0600
 tags: ruby-on-rails devops
 categories: [Case Study]
