@@ -67,6 +67,10 @@ testimonials:
       position: "Lead Developer at Nanotrust"
       image: "/assets/images/testimonials/main/matt.jpg"
       text: "Forever Bije is a highly experienced team, the work they deliver does justice to that statement. They were responsible for the development of one of ours applications, from scratch. They are quick to respond and good with communicating the project's progress. I can recommend them for the quality of their work."
+    - name: "Edouard Dognin"
+      position: "CTO at Ecov"
+      image: "/assets/images/testimonials/main/edouard.jpeg"
+      text: "Our collaboration with Forever Bije has been very effective. Their responsiveness and flexibility to adapt to our needs and schedule have been a major asset in the success of this project without impeding the progress of our functional roadmap."
 
 # Contact Area
 contact_area:
