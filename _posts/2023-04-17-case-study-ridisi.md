@@ -71,6 +71,7 @@ This is done from the same HTML grap and CSS rules as the front-end display, and
 \- a third party solution, PDFShift, based on headless Chromium: by getting rid of resources consumption and scalability issues, we still had issues with Webkit print version of document using a custom `word-spacing` or `letter-spacing`. This caused Webkit to incorrectly wrap text at the end of the bounding box (or document).
 \- a third party solution, DocRaptor, based on a proprietary PDF rendering engine, PrinceXML. This is the solution currently used in production. It also had issues with `word-spacing` rules on unbreakable spaces, that we alleviated by replacing them by classic spaces. This can still be problematic in front of punctuation marks that need a preceding space, when they end up at the end of a line, though.
 
+For this project, we worked closely with the amazing team at [Entreautre](https://www.entreautre.com) for all UX and UI design aspects of the product. [They provided invaluable advices and produced a nice interface that was simple and intuitive for our users.](https://www.entreautre.com/case-study/simplifier-le-travail-des-instituteur·ices-pour-renforcer-linclusion-a-lecole/).
 
 - - -
 ## 💻 The stack
